@@ -10,13 +10,13 @@ import confetti from 'https://cdn.skypack.dev/canvas-confetti';
     let buttonWidth = 80;
     let fontSize = 20; 
     const imagePaths = [
-      "/image1.gif",
-      "/image2.gif",
-      "/image3.gif",
-      "/image4.gif",
-      "/image5.gif",
-      "/image6.gif",
-      "/image7.gif"
+      "./image1.gif",
+      "./image2.gif",
+      "./image3.gif",
+      "./image4.gif",
+      "./image5.gif",
+      "./image6.gif",
+      "./image7.gif"
     ];
   
     noButton.addEventListener('click', function() {
