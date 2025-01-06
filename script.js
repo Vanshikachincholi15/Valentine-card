@@ -36,8 +36,9 @@ import confetti from 'https://cdn.skypack.dev/canvas-confetti';
     });
   
     yesButton.addEventListener('click', () => {
-      imageDisplay.src = '/image7.gif'; 
+      imageDisplay.src = './image7.gif'; 
       valentineQuestion.textContent = "I love you so much"; 
       responseButtons.style.display = 'none'; 
       confetti(); 
     });
+
